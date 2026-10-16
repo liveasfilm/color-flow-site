@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Color Flow · 컬러 플로우</title>
+<meta name="description" content="Draw lines to split and mix streams of paint. 컬러 플로우 · カラーフロー · 色彩流动">
+<link rel="icon" href="icon.png">
+<style>
+  :root { --bg: #f7f1e8; --ink: #2c241f; --muted: #7e7153; --card: #fffbf4; --line: #e3d6bd; --accent: #245cdc; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #1f1a15; --ink: #f2e8d8; --muted: #c4b597; --card: #2b241d; --line: #4a3d2c; --accent: #8fb0ff; } }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.7 system-ui, -apple-system, "Apple SD Gothic Neo", "Hiragino Sans", "PingFang SC", sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  header { display: flex; align-items: center; gap: 16px; } header img { width: 72px; height: 72px; border-radius: 18px; }
+  h1 { margin: 0; font-size: 28px; line-height: 1.3; } .sub { margin: 0; color: var(--muted); }
+  .dots { display: flex; gap: 6px; margin-top: 6px; } .dots i { width: 10px; height: 10px; border-radius: 50%; display: block; }
+  .hero { width: 100%; max-width: 360px; display: block; margin: 24px auto; border-radius: 24px; }
+  .grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 16px 18px; }
+  .card h2 { margin: 0 0 6px; font-size: 17px; } .card p { margin: 0; color: var(--muted); font-size: 15px; }
+  h2.sec { margin-top: 32px; }
+  a { color: var(--accent); overflow-wrap: anywhere; } footer { margin-top: 32px; color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <header><img src="icon.png" alt=""><div><h1>Color Flow</h1><p class="sub">컬러 플로우 · カラーフロー · 色彩流动</p>
+    <div class="dots"><i style="background:#e23434"></i><i style="background:#f6c41e"></i><i style="background:#24a050"></i><i style="background:#245cdc"></i></div></div></header>
+  <img class="hero" src="shot.jpg" alt="Color Flow gameplay">
+  <div class="grid">
+    <div class="card" lang="ko"><h2>컬러 플로우: 물감 물리 퍼즐</h2><p>선을 그려 물감 물줄기를 나누고 섞어, 컵마다 목표 색을 채우는 손그림 물리 퍼즐. 100단계와 온라인 순위.</p></div>
+    <div class="card" lang="en"><h2>Color Flow: Paint Puzzle</h2><p>Draw lines to split and mix streams of paint and fill every cup with its target color. 100 stages and online rankings.</p></div>
+    <div class="card" lang="ja"><h2>カラーフロー：絵の具パズル</h2><p>線を引いて絵の具の流れを分けて混ぜ、カップを目標の色で満たす物理パズル。100ステージとオンラインランキング。</p></div>
+    <div class="card" lang="zh"><h2>色彩流动：颜料物理解谜</h2><p>画线分流、混合颜料，让每个杯子装满目标颜色的物理解谜游戏。100个关卡与在线排行榜。</p></div>
+    <div class="card" lang="es"><h2>Color Flow: Puzle de pintura</h2><p>Dibuja líneas para dividir y mezclar chorros de pintura y llena cada vaso con su color. 100 niveles y ranking en línea.</p></div>
+  </div>
+  <h2 class="sec">Support</h2>
+  <div class="grid">
+    <div class="card" lang="ko"><h2>지원</h2><p>문의나 버그 제보, 순위 기록 삭제 요청은 <a href="mailto:liveasfilm@gmail.com">liveasfilm@gmail.com</a>으로 보내 주세요.</p></div>
+    <div class="card" lang="en"><h2>Support</h2><p>Questions, bug reports or leaderboard record deletion requests: <a href="mailto:liveasfilm@gmail.com">liveasfilm@gmail.com</a>.</p></div>
+    <div class="card" lang="ja"><h2>サポート</h2><p>お問い合わせ・不具合報告・ランキング記録の削除依頼は <a href="mailto:liveasfilm@gmail.com">liveasfilm@gmail.com</a> まで。</p></div>
+    <div class="card" lang="zh"><h2>支持</h2><p>问题、错误反馈或删除排行榜记录的请求，请发送至 <a href="mailto:liveasfilm@gmail.com">liveasfilm@gmail.com</a>。</p></div>
+    <div class="card" lang="es"><h2>Soporte</h2><p>Preguntas, errores o solicitudes para borrar tus récords del ranking: <a href="mailto:liveasfilm@gmail.com">liveasfilm@gmail.com</a>.</p></div>
+  </div>
+  <footer><a href="privacy.html">Privacy Policy · 개인정보처리방침 · プライバシーポリシー · 隐私政策 · Política de privacidad</a></footer>
+</main>
+</body>
+</html>
